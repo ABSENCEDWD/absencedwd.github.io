@@ -64,10 +64,10 @@ main .jumbotron {
 }
 
 .prizes {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
-.prizes {
+.prizes h2 {
   font-size: 2.25em;
   padding-bottom: 15px;
   border-bottom: 2px solid #000;
