@@ -12,10 +12,6 @@ header {
   border-bottom: 2px solid rgb(20, 80, 100);
 }
 
-header ul a {
-  color: #222;
-}
-
 .navbar {margin-bottom: 0px;}
 
 .logo {
@@ -34,14 +30,8 @@ main {
   text-align: right;
 }
 
-main .jumbotron {
-  margin-top: 180px;
-  background-color: rgba(2, 2, 2, 0);
-  color: #fff;
-}
-
 .about {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .about img {
@@ -49,29 +39,15 @@ main .jumbotron {
 }
 
 .mission {
-  padding-top: 20px;
-}
-
-.contact {
-  padding-top: 20px;
-}
-
-.submissions {
   padding-top: 50px;
 }
 
-.present {
-  padding-top: 80px;
-}
-
-.present h2 {
-  font-size: 2.25em;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #000;
+.contact {
+  padding-top: 50px;
 }
 
 .editions {
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .editions h2 {
