@@ -25,18 +25,15 @@ header {
 main {
   width: 100%;
   height: 130vh;
-  background-image: url('../img/backgrounds/Train_ABSENCE.png ');
+  background-image: url('../img/backgrounds/Train_ABSENCE.png');
   background-position: center center;
   background-size: cover;
   text-align: right;
 }
 
 main .jumbotron {
-
   margin-top: 180px;
-
   background-color: rgba(2, 2, 2, 0);
-
   color: #fff;
 
 }
