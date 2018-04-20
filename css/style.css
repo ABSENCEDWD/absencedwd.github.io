@@ -53,6 +53,16 @@ main .jumbotron {
   padding-top: 50px;
 }
 
+.submissions {
+  padding-top: 100px;
+}
+
+.submissions h2 {
+  font-size: 2.25em;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #000;
+}
+
 .editions {
   padding-top: 100px;
 }
