@@ -70,8 +70,8 @@ main .jumbotron {
   border-bottom: 2px solid #000;
 }
 
-.editions {
-  padding-top: 10px;
+.item {
+  max-height: 725px;
 }
 
 .editions h2 {
