@@ -1,14 +1,19 @@
 var main = function(){
 
+  $('.dropdown').hide();
+  $('main').fadeIn('slow');
+
   $(window).resize(function() {
 
     let $width = $(window).width()
 
     if ($width <= 760) {
-      $('.nav').hide();
+      $('.nav-item').hide();
+      $('.dropdown').show();
     }
     else {
-      $('.nav').show();
+      $('.nav-item').show();
+      $('.dropdown').hide();
     }
 
   });

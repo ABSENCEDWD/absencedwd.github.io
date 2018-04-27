@@ -21,6 +21,10 @@ header {
   width: 150px;
 }
 
+.dropdown {
+  display: block;
+}
+
 main {
   width: 100%;
   height: 130vh;
