@@ -34,7 +34,6 @@ main .jumbotron {
   margin-top: 180px;
   background-color: rgba(2, 2, 2, 0);
   color: #fff;
-
 }
 
 .about {
@@ -78,8 +77,6 @@ main .jumbotron {
   border-bottom: 2px solid #000;
 }
 
-<<<<<<< HEAD
-=======
 .specialcalls {
   padding-top: 100px;
 }
@@ -89,8 +86,6 @@ main .jumbotron {
   padding-bottom: 50px;
 }
 
-<<<<<<< HEAD
->>>>>>> 50a3891f0a17dbf9842a972ab596a3671ef7e909
 .item {
   max-height: 725px;
 }
