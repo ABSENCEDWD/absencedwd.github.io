@@ -78,17 +78,16 @@ main .jumbotron {
   border-bottom: 2px solid #000;
 }
 
-<<<<<<< HEAD
 .item {
   max-height: 725px;
-=======
+}
+
 .prizes img {
   margin: 70px 0px 20px;
 }
 
 .editions {
   padding-top: 100px;
->>>>>>> 00870400a91d05f1ec0fee2e4c63633d68abda98
 }
 
 .editions h2 {
