@@ -21,23 +21,19 @@ header {
   width: 150px;
 }
 
-.dropdown {
-  display: block;
+.dropdown span {
+  color: #222;
+  font-size: 20px;
 }
 
 main {
   width: 100%;
   height: 130vh;
   background-image: url('../img/backgrounds/Train_ABSENCE.png');
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: right;
-}
-
-main .jumbotron {
-  margin-top: 180px;
-  background-color: rgba(2, 2, 2, 0);
-  color: #fff;
 }
 
 .about {
@@ -98,11 +94,11 @@ main .jumbotron {
   margin: 70px 0px 20px;
 }
 
-.editions {
+.present, .editions {
   padding-top: 100px;
 }
 
-.editions h2 {
+.present h2, .editions h2 {
   font-size: 2.25em;
   padding-bottom: 15px;
   border-bottom: 2px solid #000;
@@ -129,6 +125,20 @@ main .jumbotron {
   color: #222;
 }
 
+.carousel-indicators li {
+  width: 20px;
+  background-color: #fff;
+  border-radius: 0px;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  width: 20px;
+  background-color: #fff;
+  border-radius: 0px;
+  opacity: 1;
+}
+
 @media only screen and (max-width: 760px) {
   .logo {
     padding: 0px;
@@ -138,8 +148,13 @@ main .jumbotron {
     float: left;
     width: 100%;
     text-align: center;
-    padding: 15px;
   }
 
-  .navbar-brand {float: none;}
+  .dropdown {
+    float: left;
+    display: block;
+    color: #222;
+  }
+
+  .navbar-brand {float: left;}
 }

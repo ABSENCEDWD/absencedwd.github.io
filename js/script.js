@@ -1,26 +1,36 @@
-var main = function(){
+var window_adjustment = function() {
 
-  $('.dropdown').hide();
+  let $width = $(window).width()
+
+  if ($width <= 760) {
+    $('.nav-item').hide();
+    $('.dropdown').show();
+  }
+  else {
+    $('.nav-item').show();
+    $('.dropdown').hide();
+  }
+
+}
+
+var main = function() {
+
+  window_adjustment();
   $('main').fadeIn('slow');
 
   $(window).resize(function() {
 
-    let $width = $(window).width()
-
-    if ($width <= 760) {
-      $('.nav-item').hide();
-      $('.dropdown').show();
-    }
-    else {
-      $('.nav-item').show();
-      $('.dropdown').hide();
-    }
+    window_adjustment();
 
   });
 
   $(document).scroll(function(event) {
     $pageScroll = $(this).scrollTop();
     //console.log($pageScroll);
+  });
+
+  $('.dropdown').on('click', function() {
+    $('.dropdown ul').toggle('fast');
   });
 }
 
