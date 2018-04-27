@@ -78,6 +78,19 @@ main .jumbotron {
   border-bottom: 2px solid #000;
 }
 
+<<<<<<< HEAD
+=======
+.specialcalls {
+  padding-top: 100px;
+}
+
+.specialcalls h2 {
+  font-size: 2.25em;
+  padding-bottom: 50px;
+}
+
+<<<<<<< HEAD
+>>>>>>> 50a3891f0a17dbf9842a972ab596a3671ef7e909
 .item {
   max-height: 725px;
 }
