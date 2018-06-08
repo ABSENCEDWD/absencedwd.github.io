@@ -17,33 +17,42 @@
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body ng-app="absence-ed">
+  
   <!-- Header -->
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar">
         <div class="container-fluid">
+
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown-nav" aria-expanded="false">
+              <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
             <a class="navbar-brand" href="index.html">
               <img alt="ABSENCE" src="img/logo.png" class="logo" />
             </a>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="submissions.html">Submission Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="prizes.html">Prizes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="specialcalls.html">Special Calls</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="editions.html">Editions</a>
-            </li>
-          </ul>
+
+          <div class="collapse navbar-collapse" id="dropdown-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="nav-link" href="index.html#about">About Us</a>
+              </li>
+              <li>
+                <a class="nav-link" href="submissions.html">Submission Info</a>
+              </li>
+              <li>
+                <a class="nav-link" href="prizes.html">Prizes</a>
+              </li>
+              <li>
+                <a class="nav-link" href="specialcalls.html">Special Calls</a>
+              </li>
+              <li>
+                <a class="nav-link" href="editions.html">Editions</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </nav>
     </div>
